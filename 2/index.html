@@ -9,14 +9,12 @@
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a href="index.html">
+        <a href="index.html">
               <img src="#" alt="Logo">
             </a>
-          </li>
+        <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="home.html" >Главная</a>
+            <a class="navigation-link" href="index.html" >Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="city.html" >О Седоне</a>
@@ -54,47 +52,47 @@
   <h2 class="advantage-title">Приемущества</h2>
   <ul class="advantage-list">
     <li class="advantage-item">
-      <span class="advantage-text">Настоящий городок</span>
-      <b class="advantage-texts">Седона - не аттракцион для туристов, там течет своя жизнь</b>
+      <h3 class="advantage-text">Настоящий городок</h3>
+      <p class="advantage-texts">Седона - не аттракцион для туристов, там течет своя жизнь</p>
     </li>
     <li class="advantage-item">
       <img src="#" alt="Городок">
     </li>
     <li class="advantage-item">
-      <span class="advantage-text">Небольшая площадь</span>
-      <b class="advantage-texts">Все достопримичательности находятся очень близко</b>
+      <h3 class="advantage-text">Небольшая площадь</h3>
+      <p class="advantage-texts">Все достопримичательности находятся очень близко</p>
     </li>
     <li class="advantage-item">
-      <span class="advantage-text">Красивая дорога</span>
-      <b class="advantage-texts">Ехать в Седону из Лас-Вегаса совсем не скучно</b>
+      <h3 class="advantage-text">Красивая дорога</h3>
+      <p class="advantage-texts">Ехать в Седону из Лас-Вегаса совсем не скучно</p>
     </li>
     <li class="advantage-item">
-      <span class="advantage-text">Мало туристов</span>
-      <b class="advantage-texts">Большинство едет в Гранд Каньон и толпится там</b>
+      <h3 class="advantage-text">Мало туристов</h3>
+      <p class="advantage-texts">Большинство едет в Гранд Каньон и толпится там</p>
     </li>
     <li class="advantage-item">
       <img src="#" alt="Мост Дьявола">
     </li>
     <li class="advantage-item">
-      <span class="advantage-text">Там есть мост дьявола</span>
-      <b class="advantage-texts">Да, по нему можно пройти! Если вы осмелитесь разумеется</b>
+      <h3 class="advantage-text">Там есть мост дьявола</h3>
+      <p class="advantage-texts">Да, по нему можно пройти! Если вы осмелитесь разумеется</p>
     </li>
   </ul>
   <ul class="advant-list">
     <li class="advant-item">
       <img src="#" alt="жильё">
-      <span class="advant-text">Жильё</span>
-      <b class="advant-texts">Рекомендуем пожить в настоящем мотеле, всё как в кино</b>
+      <h3 class="advant-text">Жильё</h3>
+      <p class="advant-texts">Рекомендуем пожить в настоящем мотеле, всё как в кино</p>
     </li>
     <li class="advant-item">
       <img src="#" alt="еда">
-      <span class="advant-text">Еда</span>
-      <b class="advant-texts">Всегда заказывайте топовый фирменный бургер, вы не разочеруетесь</b>
+      <h3 class="advant-text">Еда</h3>
+      <p class="advant-texts">Всегда заказывайте топовый фирменный бургер, вы не разочеруетесь</p>
     </li>
     <li class="advant-item">
       <img src="#" alt="сувениры">
-      <span class="advant-text">Сувениры</span>
-      <b class="advant-texts">Не только китайского, но и настоящего местного производства! </b>
+      <h3 class="advant-text">Сувениры</h3>
+      <p class="advant-texts">Не только китайского, но и настоящего местного производства! </p>
     </li>
 </section>
 <section class="hotel-search">
@@ -105,12 +103,15 @@
 <section class="newsletter">
   <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
    <p class="newsletter-subscribtion">Только полезная информация и никакого спама,честное бойскаутское!</p>
-       <form class="subscribtion-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input class="field" type="email" name="newsletter-email" placeholder="Ваш e-mail">
-          <button class="button-newsletter-button" type="submit">Подписаться</button>
+
+       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label class="visually-hidden" for="newsletter-email"></label>
+          <input class="field" type="email" name="newsletter-email" placeholder="Ваш e-mail" required>
+          <button class="button newsletter-button" type="submit"><span class="visually-hidden">Подписаться</span></button>
        </form>
 </section>
 </main>
+
 <footer>
   <section class="footer-social">
    <h2 class="visually-hidden">Соцсети</h2>
@@ -131,6 +132,7 @@
           </a>
       </li>
    </ul>
+
   </section>
   <section class="footer-contacts">
   <a class="contacts-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
