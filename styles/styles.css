@@ -23,6 +23,8 @@ body {
   background-color: #66c7e4;
 }
 
+
+
 .page-header {
   color: #000000;
   background-color: #FFFFFF;
@@ -148,3 +150,221 @@ body {
 }
 
 
+/* стили для второй страницы  */
+
+.inner-header-title {
+  font-style: bold;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.breadcrumbs-link {
+  font-style: regular;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF
+}
+
+.catalog-filter-title {
+  font-style: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.control-input {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.price-range {
+  font-style: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.button-apply  {
+  font-style: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.button-reset {
+  font-style: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.found-hotel {
+  font-style: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.select-control {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotel-amara-title  {
+  font-style: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.hotel-diablo-title {
+  font-style: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.hotel-desert-title {
+  font-style: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.hotel-green-title {
+  font-style: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.hotel-amara-name {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+.hotel-diablo-name {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotel-desert-name {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotel-green-name {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotel-amara-price {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotel-diablo-price {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotel-desert-price {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotel-green-price {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotel-amara-more {
+  font-style: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.hotel-diablo-more {
+  font-style: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.hotel-desert-more{
+  font-style: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.hotel-green-more {
+  font-style: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.hotel-amara-tofavorit {
+  font-style: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.hotel-diablo-tofavorit{
+  font-style: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.hotel-desert-tofavorit{
+  font-style: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.hotel-green-tofavorit{
+  font-style: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.raiting {
+font-style: regular;
+font-size: 18px;
+line-height: 21px;
+color: #333333;
+}
+
+
+.pagination-link {
+  font-style: bold;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+}
