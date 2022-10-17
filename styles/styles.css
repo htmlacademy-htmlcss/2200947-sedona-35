@@ -20,11 +20,131 @@ body {
   font-size: 30px;
   line-height: 36px;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: #66c7e4;
 }
 
 .page-header {
   color: #000000;
   background-color: #FFFFFF;
 }
-/* разобраться почему не работает  .page-header   БШ шаг 4.24 */
+
+.navigation-link {
+  font-style: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.city-intro {
+  font-style: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.advantages-intro {
+  font-style: regular;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.advantage-text {
+  font-style: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.advantage-texts {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.advantage-text-black {
+  font-style: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.advantage-texts-black {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.advant-text {
+  font-style: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.advant-texts {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.hotel-search-title {
+  font-style: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.hotel-search-form {
+  font-style: regular;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.button {
+  font-style: bold;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.newsletter-title {
+  font-style: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.newsletter-subscribtion {
+  font-style: regular;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF
+}
+
+.field {
+  font-style: regular;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000
+}
+
+.newsletter-button {
+  font-style: bold;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.contacts-phone {
+  font-style: regular;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000
+}
+
+
