@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css"
   </head>
 
   <body>
@@ -25,7 +26,7 @@
 
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link" href="#"><span class="visually-hidden">Поискh</span></a>
+            <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
           </li>
           <li>
             <a class="navigation-link" href="#"><span class="visually-hidden">Like</span></a>
@@ -40,7 +41,7 @@
 
       <main class="main-inner">
         <section class="catalog-hotel">
-          
+
           <h1 class="inner-header-title">Гостиницы Седона</h1>
           <ul class="breadcrumbs">
             <li class="breadcrumbs-item">
@@ -53,7 +54,7 @@
           <h2 class="visually-hiden">Список гостиницы с фильтрами</h2>
           <form class="catalog-filter" action="https://htmlacademy.ru" method="get">
             <fieldset class="catalog-filter-group">
-              <legend class="catalog-filter-title>">Инфраструктура</legend>
+              <legend class="catalog-filter-title">Инфраструктура</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
@@ -71,7 +72,7 @@
             </fieldset>
 
             <fieldset class="catalog-filter-group">
-              <legend class="catalog-filter-title>">Тип жилья</legend>
+              <legend class="catalog-filter-title">Тип жилья</legend>
               <ul class="catalog-filter-list">
                 <li class="catalog-filter-item">
                   <label class="control">
@@ -101,11 +102,11 @@
         </section>
 
         <section class="sorting">
-          <h2>Найдено гостиниц: 38</h2>
+          <h2 class="found-hotel">Найдено гостиниц: 38</h2>
           <select class="select-control" aria-label="Сортировка">
-            <option value="cheap">Сначала дешёвое</option>
-            <option value="expensive">Сначала дорогое</option>
-            <option value="popular">Сначала популярное</option>
+            <option value="cheap">Сначала дешёвые</option>
+            <option value="expensive">Сначала дорогие</option>
+            <option value="popular">Сначала популярные</option>
             <a href="#" class="button button-card"><span class="visually-hidden">Показать карточки</span></a>
             <a href="#" class="button button-deployed"><span class="visually-hidden">Показать развернуто</span></a>
             <a href="#" class="button button-list"><span class="visually-hidden">Показать список</span></a>
@@ -135,7 +136,7 @@
               <p class="hotel-diablo-name">Гостиницa</p>
               <p class="hotel-diablo-price">От 5000 ₽</p>
               <a class="hotel-diablo-more button" href="more.html">Подробнее</a>
-              <button class="hotel-amara-tofavorit button" type="button" name="favorites">В избранном</button>
+              <button class="hotel-diablo-tofavorit button" type="button" name="favorites">В избранном</button>
               <p><span class="star visually-hidden">4 звезды</span></p>
               <p class="raiting">Рейтинг: 9.2</p>
             </li>
@@ -148,7 +149,7 @@
               <p class="hotel-desert-name">Гостиницa</p>
               <p class="hotel-desert-price">От 2500 ₽</p>
               <a class="hotel-desert-more button" href="more.html">Подробнее</a>
-              <button class="hotel-amara-tofavorit button" type="button" name="favorites">В избранное</button>
+              <button class="hotel-desert-tofavorit button" type="button" name="favorites">В избранное</button>
               <p><span class="star visually-hidden">3 звезды</span></p>
               <p class="raiting">Рейтинг: 6.9</p>
             </li>
@@ -161,7 +162,7 @@
               <p class="hotel-green-name">Гостиницa</p>
               <p class="hotel-green-price">От 1500 ₽</p>
               <a class="hotel-green-more button" href="more.html">Подробнее</a>
-              <button class="hotel-amara-tofavorit button" type="button" name="favorites">В избранное</button>
+              <button class="hotel-green-tofavorit button" type="button" name="favorites">В избранное</button>
               <p><span class="star visually-hidden">2 звезды</span></p>
               <p class="raiting">Рейтинг: 5.0</p>
             </li>
