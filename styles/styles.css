@@ -15,7 +15,15 @@
   font-display: swap;
 }
 
+html {
+height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 36px;
@@ -23,20 +31,62 @@ body {
   background-color: #FFFFFF;
 }
 
-/*
+
 .main-index {
+
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+
+
 }
 
-*/
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.motto {
+  width: 1200px;
+  text-align: center;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
 
 .page-header {
   color: #000000;
   background-color: #FFFFFF;
+
 }
 
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 339px;
+}
+
+.navigation-user {
+  max-width: 268;
+  margin-left: auto;
+
+}
 .navigation-link {
   font-weight: 700;
   font-size: 20px;
@@ -49,6 +99,46 @@ body {
   font-size: 30px;
   line-height: 36px;
   color: #000000;
+}
+
+/*
+.advantage-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+будет на гридах
+*/
+
+.basic-3 {
+  background-color: #82B3D3;
+ }
+
+.second-1 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.second-2 {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantage-item,
+.advant-item {
+  width: 400px;
+  min-height: 384px;
+}
+
+.img-city {
+  display: block;
+}
+
+.bloc-1,
+.bloc-2 {
+  width: 800px;
+  display: block;
 }
 
 .advantages-intro {
@@ -86,18 +176,35 @@ body {
   color: #333333;
 }
 
+.advant-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+
 .advant-text {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   color: #000000;
-}
+  }
 
 .advant-texts {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+}
+
+.hotel-search {
+  width: 1200px;
+  text-align: center;
+
 }
 
 .hotel-search-title {
@@ -144,6 +251,8 @@ body {
 
 
 .newsletter {
+  text-align: center;
+
   background-image: url("../images/fon-futer.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -158,6 +267,13 @@ body {
   color: #FFFFFF;
 }
 
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .contacts-phone {
   font-weight: 400;
   font-size: 40px;
@@ -168,15 +284,6 @@ body {
 
 /* стили для второй страницы  */
 
-/*
-
-.main-inner {
-  background-image: url("../images/catalog-backgraund.png");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-}
-
-*/
 
 
 
