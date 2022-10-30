@@ -73,9 +73,13 @@ body {
 }
 
 .navigation-list {
-  width: 339px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  text-align: center;
+  width: 339px;
 }
 
 .navigation-user {
@@ -97,6 +101,7 @@ body {
   color: #000000;
 }
 
+/*
 .advantage-list {
   display: flex;
   justify-content: space-between;
@@ -105,6 +110,8 @@ body {
   padding: 0;
   text-align: center;
 }
+будет на гридах
+*/
 
 .basic-3 {
   background-color: #82B3D3;
