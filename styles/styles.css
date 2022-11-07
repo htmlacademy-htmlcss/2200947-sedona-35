@@ -28,7 +28,7 @@
 
 
 html {
-  height: 100%;
+  height: 1200px;
 }
 
 body {
@@ -43,26 +43,70 @@ body {
   background-color: #FFFFFF;
 }
 
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-index {
+  margin-left: 70px;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 339px;
+  list-style-type: none;
+}
+
+.navigation-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.navigation-menu-index {
+  margin-left: 44px;
+}
+
+
+.navigation-user {
+  max-width: 268;
+  margin-left: auto;
+  padding: 23px;
+}
+
 
 .main-index {
-
   background-image: url("../images/index-background.jpg");
-  background-size: 100% auto;
+  background-size: contain;
   background-repeat: no-repeat;
 
 }
 
 .logo {
   display: block;
+  padding-top: 54px;
   margin: 0 auto;
+  margin-bottom: 82px;
 }
 
 .logo_welcome {
   display: block;
+  padding-top: 51px;
   margin: 0 auto;
+
 }
 
 .logo_gorgeous {
+  padding-top: 11px;
   display: block;
   margin: 0 auto;
 }
@@ -85,31 +129,8 @@ body {
 .page-header {
   color: #000000;
   background-color: #FFFFFF;
-
 }
 
-.navigation {
-  display: flex;
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.navigation-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  width: 339px;
-  list-style-type: none;
-}
-
-.navigation-user {
-  max-width: 268;
-  margin-left: auto;
-  padding: 23px;
-}
 
 .choice {
   margin: 0;
@@ -117,22 +138,18 @@ body {
   text-align: center;
 }
 
-.navigation-link {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000000;
-}
 
 .city-intro {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   color: #000000;
+  padding-top: 69px;
 }
 
 /*
 .advantage-list {
+  list-style-type: none;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -140,38 +157,94 @@ body {
   padding: 0;
   text-align: center;
 }
-будет на гридах
+*/
+
+.advantage-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows:    384px 384px 384px;
+  gap: 0;
+  width: 1200px;
+  height: 1152px;
+}
+
+
+
+.text-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 400px;
+  min-height: 384px;
+}
+
+.bloc-1 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 800px;
+  height: 384px;
+}
+
+.second-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: rgba(131, 179, 211, 0.12);
+  width: 400px;
+  min-height: 384px;
+}
+
+.second-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: rgba(131, 179, 211, 0.2);
+  width: 400px;
+  min-height: 384px;
+}
+
+.second-3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: rgba(131, 179, 211, 0.12);
+  width: 400px;
+  min-height: 384px;
+}
+
+.bloc-2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 800px;
+  height: 384px;
+}
+
+.text-2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 400px;
+  min-height: 384px;
+}
 */
 
 .basic-3 {
   background-color: #82B3D3;
  }
 
-.second-1 {
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.second-2 {
-  background-color: rgba(131, 179, 211, 0.2);
-}
-
-.advantage-item,
-.advant-item {
-  width: 400px;
-  min-height: 384px;
-}
-
-.img-city {
-  display: block;
-}
-
-.bloc-1,
-.bloc-2 {
-  width: 800px;
-  display: block;
-}
 
 .advantages-intro {
+  padding-top: 25px;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -206,7 +279,10 @@ body {
   color: #333333;
 }
 
+
+
 .advant-list {
+  list-style-type: none;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
